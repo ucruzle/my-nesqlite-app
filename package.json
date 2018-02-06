@@ -1,0 +1,32 @@
+{
+  "name": "my-nesqlite-app",
+  "version": "1.0.0",
+  "description": "Node.js Express SQLite openUI5 - stack sample APP",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-integration": "mocha --opts test/integration/mocha.opts test/integration/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucruzle/my-nesqlite-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ucruzle/my-nesqlite-app/issues"
+  },
+  "homepage": "https://github.com/ucruzle/my-nesqlite-app#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "supertest": "^3.0.0"
+  }
+}
