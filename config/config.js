@@ -4,7 +4,10 @@ export default {
     password: "",
     params: {
         dialect: 'sqlite',
-        storege: 'books.sqlite',
+        logging: false,
+        freezeTableName: true,
+        operatorsAliases: false,
+        storege: `${process.env.NODE_ENV}_books.sqlite`,
         define: {
             underscored: true
         }
